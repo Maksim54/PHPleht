@@ -1,0 +1,17 @@
+div#result{
+	position:absolute;
+	margin-left: 30%;
+	top: 280px;
+
+}
+body{
+	background-color: #54abb3;
+
+}
+div#img{
+	font-size: 20px;
+}
+
+div#imgg{
+	font-size: 20px;
+}

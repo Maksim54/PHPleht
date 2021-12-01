@@ -1,0 +1,28 @@
+body{
+    background-repeat: no-repeat;
+    background-image:url(tmnt200.jpg);
+    width:900 px;
+    height:1080 px;
+    color:#ccd4ab;
+}
+canvas{
+    width:630px;
+    height:700px;
+    background-color:#b3bab1;
+    /*margin-left:600px;*/
+    background-image:url(tmnt.png);
+}
+
+input[type="button"]{
+    background-color:#d9c07e;
+    border:dashed 4px #34b317;
+    color:#9c132e;
+    margin:2px;
+    padding:15.9px;
+    cursor:pointer;
+    border-radius:25%;
+}
+
+input[type="number"]{
+    width:90px;
+}
