@@ -10,6 +10,6 @@
         <a href="?leht=calculator">Calculator</a>
         <a href="?leht=pildid">Images</a>
         <a href="?leht=LisamineNaitamine">Loomad</a>
-        <a href="https://merkulova.thkit.ee/puud/puuleht.php">Puud</a>
+        <a href="https://lagunovski20.thkit.ee/puud/puuleht.php">Puud</a>
     </div>
 </nav>
