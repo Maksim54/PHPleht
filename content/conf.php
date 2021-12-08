@@ -2,7 +2,7 @@
 $serverinimi='localhost';
 $kasutajanimi='mlagunovski20';
 $parool='123456';
-$andmebaasinimi='users';
+$andmebaasinimi='mlagunovski20';
 $yhendus=new mysqli($serverinimi, $kasutajanimi,
     $parool, $andmebaasinimi);
 $yhendus->set_charset('UTF8');

@@ -1,0 +1,20 @@
+body{
+    background-color:#a9c9aa;
+}
+canvas{
+    width:700px;
+    height:660px;
+    background-color:#758bbf;
+}
+
+input[type="button1"]{
+    background-color:#d9c07e;
+    border:dashed 4px #34b317;
+    color:#9c132e;
+    cursor: crosshair;
+}
+
+input[type="number"]{
+    width:90px;
+}
+
