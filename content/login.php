@@ -2,7 +2,7 @@
 //login vorm koodis kirjutatud kasutajanimega ja prooliga
 session_start();
 if(isset($_SESSION['tuvastamine'])){
-    header('Location: puuLeht.php');
+    header('Location: puuleht.php');
     exit();
 
 }
@@ -10,9 +10,9 @@ if(isset($_SESSION['tuvastamine'])){
 if(!empty($_POST['login']) && !empty($_POST['pass'])){
     $login=$_POST['login'];
     $pass=$_POST['pass'];
-    if($login=='admin' && $pass=='irina'){
+    if($login=='admin' && $pass=='admin'){
         $_SESSION['tuvastamine']='niilihtne';
-        header('Location: puuLeht.php');
+        header('Location: puuleht.php');
     }
 }
 /*

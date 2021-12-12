@@ -2,7 +2,7 @@
 //login vorm Andmebaasis salvestatud kasutajanimega ja prooliga
 session_start();
 if(isset($_SESSION['tuvastamine'])){
-    header('Location: puuLeht.php');
+    header('Location: puuleht.php');
     exit();
 
 }
